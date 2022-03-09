@@ -16,5 +16,6 @@
 
 **4.** Ingrese a la plataforma de integración contínua Circle.CI (www.circleci.com). Para ingresar, basta que se autentique con su usuario de GitHUB.
 
+![image](https://user-images.githubusercontent.com/98135902/157539552-f3819ea2-0a89-4931-b20f-177f69fe17a7.png)
 
 
