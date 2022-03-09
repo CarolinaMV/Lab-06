@@ -18,4 +18,4 @@
 
 ![image](https://user-images.githubusercontent.com/98135902/157539552-f3819ea2-0a89-4931-b20f-177f69fe17a7.png)
 
-
+**5.** Seleccione la opción de agregar proyectos. En la organización o usuario de GitHub, seleccione el proyecto al que le va hacer despliegue continuo, y haga clic en "Build Project":
