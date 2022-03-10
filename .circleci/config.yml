@@ -3,6 +3,12 @@ version: 2.1
 orbs:
   maven: circleci/maven@0.0.12
 
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: labcvds
+
 workflows:
   maven_test:
     jobs:
