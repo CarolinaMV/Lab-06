@@ -10,8 +10,6 @@ import java.io.IOException;
 import java.io.Writer;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
-import javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction;
 import edu.eci.cvds.Servlet.model.Todo;
 
 @WebServlet(
