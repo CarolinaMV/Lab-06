@@ -6,7 +6,7 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: app-Lab06
+      appname: appcvds
 
 workflows:
   version: 2
