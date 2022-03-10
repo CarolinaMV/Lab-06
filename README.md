@@ -35,3 +35,7 @@
         Ejemplo: https://github.com/PDSW-ECI/base-proyectos/blob/master/circle.yml
 
 **12.** Cree un archivo README.md para su proyecto, y asocie al mismo dos 'badges', que permitan conocer el estado del proyecto en cualquier momento: uno para Circle.CI, y otro para CODACY.
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1b861944186b47b1b3a9364d2d75ea51)](https://www.codacy.com/gh/CarolinaMV/Lab-06/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CarolinaMV/Lab-06&amp;utm_campaign=Badge_Grade)
+
+[![CircleCI](https://circleci.com/gh/CarolinaMV/Lab-06/tree/master.svg?style=svg)](https://circleci.com/gh/CarolinaMV/Lab-06/tree/master)
