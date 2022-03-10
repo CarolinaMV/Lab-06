@@ -1,7 +1,9 @@
 function validateForm() {
-  var x = document.forms["myForm"]["fname"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
+    var x;
+    x = document.getElementById("id").value;
+    if (isNaN(x)) {
+        alert("Valor no numerico: '"+x+"'");
+        return false;
+    }
+    return true;
 }
