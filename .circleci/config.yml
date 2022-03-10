@@ -18,12 +18,13 @@ jobs:
           name: "Say hello"
           command: "echo Hello, World!"
 
-# Invoke jobs via workflows
-# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+orbs:
+  maven: circleci/maven@0.0.12
+
 workflows:
-  say-hello-workflow:
+  maven_test:
     jobs:
-      - say-hello
+      - maven/test # checkout, build, test, and upload test results
 deployment:
   staging:
     branch: master
