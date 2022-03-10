@@ -22,7 +22,6 @@
 
 ![image](https://user-images.githubusercontent.com/98135902/157541346-94c6f610-c8a6-4695-bcc0-9b1a6f131417.png)
 
-
   Una vez se inicie la primera construcción del proyecto, seleccione las opciones del proyecto (project settings)
   Vaya a CONTINUOUS DEPLOYMENT/Heroku Deployment, y realice los dos pasos indicados: (1) registrar la llave de Heroku, y (2) asociar su usuario para el despliegue:
 
