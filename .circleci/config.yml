@@ -19,9 +19,7 @@ orbs:
 deployment:
   staging:
     branch: master
-    heroku:
-      appname: labcvds
-
+    
 workflows:
   maven_test:
     jobs:
