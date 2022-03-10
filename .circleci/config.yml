@@ -1,35 +1,9 @@
 version: 2.1
+
 orbs:
-  heroku: circleci/heroku@0.0.10
   maven: circleci/maven@0.0.12
+
 workflows:
   maven_test:
     jobs:
       - maven/test # checkout, build, test, and upload test results
-  heroku_deploy:
-    jobs:
-      - build
-      - heroku/deploy-via-git:  
-          requires:
-            - build
-          filters:
-            branches:
-              only: master
-jobs:
-  build:
-    docker:
-      - image: circleci/node:10.16.0
-    steps:
-      - checkout
-      - restore_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
-      - run:
-          name: Install dependencies
-          command: npm install
-      - save_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
-          paths:
-            - ./node_modules
-      - run:
-          name: Run test
-          command: npm test
